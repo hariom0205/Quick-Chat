@@ -14,7 +14,7 @@ const server = http.createServer(app);
 //  Allow your frontend domain instead of "*"
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://your-frontend.vercel.app" // 🔁 Replace with your actual deployed frontend URL
+  "https://quick-chat-frontend-e1wd.onrender.com" // Replace with your actual deployed frontend URL
 ];
 
 // Initialize socket.io server
